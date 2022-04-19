@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 def main():
-    print('Welcome to the Brain Games!')
+    print('Welcome to the Brain games!')
 
 
 if __name__ == '__main__':
