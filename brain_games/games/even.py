@@ -1,6 +1,15 @@
 import random
+import prompt
+
 
 DESCRIPTION = "Answer \"yes\" if the number is even, otherwise answer \"no\"."
+
+
+def welcome_user():
+    print("Welcome to the Brain games!")
+    name = prompt.string('May I have your name? ')
+    print('Hello, {}'.format(name))
+    return name
 
 
 def get_question_and_answer():
