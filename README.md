@@ -4,3 +4,4 @@
 [![linter](https://github.com/di8ry/python-project-lvl1/actions/workflows/linter.yml/badge.svg)](https://github.com/di8ry/python-project-lvl1/actions/workflows/linter.yml)
 [![asciicast](https://asciinema.org/a/2Bf7NNBHDnoEDW8bnPpPXlXKx.svg)](https://asciinema.org/a/2Bf7NNBHDnoEDW8bnPpPXlXKx)
 [![asciicast](https://asciinema.org/a/V050A7vDRCbL7mo9dKHgYq2mY.svg)](https://asciinema.org/a/V050A7vDRCbL7mo9dKHgYq2mY)
+[![asciicast](https://asciinema.org/a/zRQ8NR4J6UY9MF4HWxZERSpgI.svg)](https://asciinema.org/a/zRQ8NR4J6UY9MF4HWxZERSpgI)

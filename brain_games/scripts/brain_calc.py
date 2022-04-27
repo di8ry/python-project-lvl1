@@ -8,7 +8,5 @@ def main():
     get_calc()
 
 
-
-
 if __name__ == '__main__':
     main()

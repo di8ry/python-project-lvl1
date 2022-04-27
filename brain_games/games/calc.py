@@ -23,6 +23,6 @@ def get_calc():
         if user_answer == right_answer:
             print('Correct!')
         else:
-            print(user_answer, 'is wrong answer ;(. Correct answer was', right_answer, "\nLet's try again, Sam!")
+            print(user_answer, 'is wrong answer ;(. Correct answer was', right_answer, "\nLet's try again")
             break
     print('Game over')
