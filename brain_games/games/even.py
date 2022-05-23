@@ -17,7 +17,7 @@ def get_question_and_answer():
     attempts = 0
     for attempts in range(3):
         number = random.randint(1, 20)
-        print('Question: ', number)
+        print('Question:', number)
         print('Your answer(yes or no): ')
         answer = input()
         if number % 2 == 0 and answer == 'yes' or number % 2 != 0 and answer == 'no':

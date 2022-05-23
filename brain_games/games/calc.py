@@ -17,7 +17,7 @@ def get_calc():
             right_answer = number_1 - number_2
         elif operation == '*':
             right_answer = number_1 * number_2
-        print('Question: ', number_1, operation, number_2)
+        print('Question:', number_1, operation, number_2)
         print('Your answer: ')
         user_answer = int(input())
         if user_answer == right_answer:
