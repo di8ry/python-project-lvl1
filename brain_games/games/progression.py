@@ -13,9 +13,10 @@ def get_question_and_answer():
     for i in range(len(a)):
         if a[i] == answer:
             a[i] = ".."
-    return a, str(answer)
+    res = ' '.join(str(e) for e in a)
+    return res, str(answer)
 
-
+print(get_question_and_answer())
 
 
 
