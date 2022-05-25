@@ -1,25 +1,24 @@
-import random
+from random import randint
 
 
-description_gcd = 'Find the greatest common divisor of given numbers.'
+DESCRIPTION = 'Find the greatest common divisor of given numbers.'
 
 
-def gcd():
-    print(description_gcd)
-    for attemps in range(3):
-        number_1 = random.randint(1, 100)
-        number_2 = random.randint(1, 100)
-        print('Question: ', number_1, number_2)
-        print('Your answer: ')
-        user_answer = int(input())
-        while number_2 > 0:
-            number_1, number_2 = number_2, number_1 % number_2
-        if user_answer == number_1:
-            print('Correct')
-        else:
-            print(user_answer, 'is wrong answer ;(. Correct answer was ', number_1, "\nLet's try again")
+def gcd(number1, number2):
+    if number2 == 0:
+        return abs(number1)
+    remainder = number1 % number2
+    if remainder == 0:
+        return abs(number2)
+    return gcd(number2, remainder)
 
 
+def get_question_and_answer():
+    number1 = randint(0, 100)
+    number2 = randint(0, 100)
+    expression = "{} {}".format(number1, number2)
+    result = str(gcd(number1, number2))
+    return expression, result
 
 
 
