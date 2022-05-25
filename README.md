@@ -23,4 +23,3 @@ The package contains five simple mathematics quiz games:
 ### brain-prime
 [![asciicast](https://asciinema.org/a/497147.svg)](https://asciinema.org/a/497147)
 ### brain-progression
-[![asciicast](https://asciinema.org/a/497152.svg)](https://asciinema.org/a/497152)
