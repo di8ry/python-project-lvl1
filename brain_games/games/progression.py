@@ -15,8 +15,3 @@ def get_question_and_answer():
             a[i] = ".."
     res = ' '.join(str(e) for e in a)
     return res, str(answer)
-
-print(get_question_and_answer())
-
-
-

@@ -20,5 +20,3 @@ def run_games(game):
             break
     else:
         print('Congratulations, {}!'.format(name))
-
-
