@@ -2,6 +2,9 @@
 name = "hexlet-code"
 version = "0.1.0"
 description = "Brain games project on hexlet.io"
+classifiers = [
+    "Topic :: Python Education"
+]
 authors = ["di8ry <kohd619@gmail.com>"]
 repository = "https://github.com/di8ry/python-project-lvl1"
 

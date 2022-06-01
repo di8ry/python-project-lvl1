@@ -16,6 +16,6 @@ def gcd(number1, number2):
 def get_question_and_answer():
     number1 = randint(0, 100)
     number2 = randint(0, 100)
-    expression = "{} {}".format(number1, number2)
-    result = str(gcd(number1, number2))
-    return expression, result
+    question = "{} {}".format(number1, number2)
+    answer = str(gcd(number1, number2))
+    return question, answer

@@ -10,6 +10,6 @@ def get_question_and_answer():
     number_1 = randint(1, 20)
     number_2 = randint(1, 20)
     symbol, operation = choice(OPERATIONS)
-    expression = "{} {} {}".format(number_1, symbol, number_2)
-    result = str(operation(number_1, number_2))
-    return expression, result
+    question = "{} {} {}".format(number_1, symbol, number_2)
+    answer = str(operation(number_1, number_2))
+    return question, answer

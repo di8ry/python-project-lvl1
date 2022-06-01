@@ -1,8 +1,9 @@
 from random import randint
 from math import sqrt, ceil
 
-DESCRIPTION = 'Answer \"yes\" if given number is prime. \
-Otherwise answer \"no\".'
+DESCRIPTION = \
+    'Answer "yes" if given number is prime.'\
+    ' Otherwise answer "no".'
 
 
 def is_prime(number):
@@ -13,6 +14,6 @@ def is_prime(number):
 
 
 def get_question_and_answer():
-    number = randint(2, 1000)
-    result = 'yes' if is_prime(number) else 'no'
-    return number, result
+    question = randint(2, 1000)
+    answer = 'yes' if is_prime(question) else 'no'
+    return question, answer
